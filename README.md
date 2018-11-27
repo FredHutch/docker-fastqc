@@ -1,6 +1,8 @@
 # docker-fastqc
 Docker image running FASTQC
 
+[![Docker Repository on Quay](https://quay.io/repository/fhcrc-microbiome/fastqc/status "Docker Repository on Quay")](https://quay.io/repository/fhcrc-microbiome/fastqc)
+
 Image contains FastQC as well as a wrapper script to make it easy to run on files in AWS S3
 
 ### Wrapper script
