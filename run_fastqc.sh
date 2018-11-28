@@ -22,7 +22,8 @@ echo Running FastQC
 fastqc -f fastq /share/$filename
 
 # Return the output
-aws s3 cp $(find /share -name "*zip") $2
+zip_file=$(find /share -name "*zip")
+aws s3 cp "$zip_file" "$2"
 
 # Clean up temp files
 echo Removing temporary files
